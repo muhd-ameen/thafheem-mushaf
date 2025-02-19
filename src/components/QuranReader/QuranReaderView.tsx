@@ -1,11 +1,13 @@
-import React from "react";
-import dynamic from "next/dynamic";
-import { VersesResponse } from "types/ApiResponses";
-import { QuranReaderDataType } from "types/QuranReader";
-import QuranReaderStyles from "@/redux/types/QuranReaderStyles";
+import React from 'react';
+
+import dynamic from 'next/dynamic';
+
+import QuranReaderStyles from '@/redux/types/QuranReaderStyles';
+import { VersesResponse } from 'types/ApiResponses';
+import { QuranReaderDataType } from 'types/QuranReader';
 
 // Dynamically import ReadingView component
-const ReadingView = dynamic(() => import("./ReadingView"));
+const ReadingView = dynamic(() => import('./ReadingView'));
 
 interface Props {
   quranReaderStyles: QuranReaderStyles;

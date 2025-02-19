@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import QuranFontSection from "./QuranFontSection";
-import ResetButton from "./ResetButton";
-import ThemeSection from "./ThemeSection";
+import QuranFontSection from './QuranFontSection';
+import ResetButton from './ResetButton';
+import ThemeSection from './ThemeSection';
 
 const SettingsBody = () => (
   <>
